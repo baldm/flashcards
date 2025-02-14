@@ -1,17 +1,13 @@
-//
-//  flashcardsApp.swift
-//  flashcards
-//
-//  Created by Jonathan Zørn on 14/02/2025.
-//
-
 import SwiftUI
 
 @main
-struct flashcardsApp: App {
+struct FlashcardApp: App {
+    @StateObject private var viewModel = FlashcardViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
         }
     }
 }

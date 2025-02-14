@@ -35,16 +35,6 @@
 			path = flashcards;
 			sourceTree = "<group>";
 		};
-		EA0976D22D5F62BE00C243B7 /* flashcardsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = flashcardsTests;
-			sourceTree = "<group>";
-		};
-		EA0976DC2D5F62BE00C243B7 /* flashcardsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = flashcardsUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				EA0976C12D5F62BD00C243B7 /* flashcards */,
-				EA0976D22D5F62BE00C243B7 /* flashcardsTests */,
-				EA0976DC2D5F62BE00C243B7 /* flashcardsUITests */,
 				EA0976C02D5F62BD00C243B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				EA0976D12D5F62BE00C243B7 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				EA0976D22D5F62BE00C243B7 /* flashcardsTests */,
-			);
 			name = flashcardsTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				EA0976DB2D5F62BE00C243B7 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				EA0976DC2D5F62BE00C243B7 /* flashcardsUITests */,
 			);
 			name = flashcardsUITests;
 			packageProductDependencies = (
